@@ -34,6 +34,7 @@ const Home = () => {
       <Center>
         <Input
           placeholder='email'
+          type='email'
           value={email}
           onChange={(event) => setEmail(event.target.value)}
           width='50vh'
@@ -42,6 +43,7 @@ const Home = () => {
       </Center>
       <Center>
         <Input
+          type='password'
           width='50vh'
           placeholder='password'
           value={password}
