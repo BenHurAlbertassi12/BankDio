@@ -33,7 +33,7 @@ const Home = () => {
 
       <Center>
         <Input
-          placeholder='email'
+          placeholder='email = dev.benhur@gmail.com'
           type='email'
           value={email}
           onChange={(event) => setEmail(event.target.value)}
@@ -45,7 +45,7 @@ const Home = () => {
         <Input
           type='password'
           width='50vh'
-          placeholder='password'
+          placeholder='password = 123'
           value={password}
           onChange={(event) => setPassword(event.target.value)}
           marginBottom='10px'
@@ -54,6 +54,7 @@ const Home = () => {
       <Center>
         <NButton onClick={() => validateUser(email, password)} />
       </Center>
+      
     </Card>
   );
 };
